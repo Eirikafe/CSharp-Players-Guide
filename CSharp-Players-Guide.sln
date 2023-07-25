@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Players-Guide", "CSharp-Players-Guide.csproj", "{BF66E556-8C5C-46FE-A2D0-C712A66A14D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 3", "..\Chapter 3\Chapter 3.csproj", "{499C51AE-AC4E-4499-A2C3-11E755811ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 4", "..\Chapter 4\Chapter 4.csproj", "{3662B9C1-7875-4147-ACE1-F4B08ECB24F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BF66E556-8C5C-46FE-A2D0-C712A66A14D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF66E556-8C5C-46FE-A2D0-C712A66A14D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF66E556-8C5C-46FE-A2D0-C712A66A14D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499C51AE-AC4E-4499-A2C3-11E755811ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499C51AE-AC4E-4499-A2C3-11E755811ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499C51AE-AC4E-4499-A2C3-11E755811ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499C51AE-AC4E-4499-A2C3-11E755811ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3662B9C1-7875-4147-ACE1-F4B08ECB24F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3662B9C1-7875-4147-ACE1-F4B08ECB24F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3662B9C1-7875-4147-ACE1-F4B08ECB24F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3662B9C1-7875-4147-ACE1-F4B08ECB24F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
