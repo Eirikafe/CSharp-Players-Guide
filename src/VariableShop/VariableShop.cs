@@ -1,0 +1,64 @@
+﻿using System;
+
+byte byteValue = 255;
+short shortValue = 32767;
+int intValue = 2147483647;
+long longValue = 9223372036854775807;
+sbyte sbyteValue = 127;
+ushort ushortValue = 65535;
+uint uintValue = 4294967295;
+ulong ulongValue = 18446744073709551615;
+char charValue = 'a';
+string stringValue = "this is a string";
+float floatValue = 3.14f;
+double doubleValue = 3.14159;
+decimal decimalValue = 3.141592653m;
+bool boolValue = true;
+
+
+Console.WriteLine("Welcome to the variable shop! Here are the wares:\n");
+Console.WriteLine("byte: " + byteValue);
+Console.WriteLine("short: " +  shortValue);
+Console.WriteLine("int: " +  intValue);
+Console.WriteLine("long: " +  longValue);
+Console.WriteLine("sbyte: " +  sbyteValue);
+Console.WriteLine("ushort: " +  ushortValue);
+Console.WriteLine("uint: " +  uintValue);
+Console.WriteLine("ulong: " +  ulongValue);
+Console.WriteLine("char: " +  charValue);
+Console.WriteLine("string: " + stringValue);
+Console.WriteLine("float: " +  floatValue);
+Console.WriteLine("double: " + doubleValue);
+Console.WriteLine("decimal: " + decimalValue);
+Console.WriteLine("boolean: " +  boolValue);
+
+byteValue = 254;
+shortValue = 32766;
+intValue = 2147483646;
+longValue = 9223372036854775806;
+sbyteValue = 126;
+ushortValue = 65534;
+uintValue = 4294967294;
+ulongValue = 18446744073709551614;
+charValue = 'b';
+stringValue = "this is a string also";
+floatValue = 3.12f;
+doubleValue = 3.14152;
+decimalValue = 3.141592652m;
+boolValue = false;
+
+Console.WriteLine("Shop updated: \n");
+Console.WriteLine("byte: " + byteValue);
+Console.WriteLine("short: " + shortValue);
+Console.WriteLine("int: " + intValue);
+Console.WriteLine("long: " + longValue);
+Console.WriteLine("sbyte: " + sbyteValue);
+Console.WriteLine("ushort: " + ushortValue);
+Console.WriteLine("uint: " + uintValue);
+Console.WriteLine("ulong: " + ulongValue);
+Console.WriteLine("char: " + charValue);
+Console.WriteLine("string: " + stringValue);
+Console.WriteLine("float: " + floatValue);
+Console.WriteLine("double: " + doubleValue);
+Console.WriteLine("decimal: " + decimalValue);
+Console.WriteLine("boolean: " + boolValue);
